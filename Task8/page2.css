@@ -1,0 +1,22 @@
+.card {
+    width: 300px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#card-edit {
+    position:absolute;
+    right: 0;
+}
+
+#chat {
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    margin: 30px;
+    padding: 15px;
+    background-color:cadetblue;
+    border-radius:50px;
+}
