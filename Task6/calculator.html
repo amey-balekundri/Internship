@@ -1,0 +1,54 @@
+<html> 
+   <head> 
+      <link href="calculator.css" rel="stylesheet">
+      <script src="calculator.js"></script>
+   </head> 
+   <body> 
+    <h1>Calculator</h1>
+       <div class="container">
+           <div class="calculator">
+                <table> 
+                    <tr> 
+                        <td><input type="button" value="1" onclick="valu('1')"/> </td> 
+                        <td><input type="button" value="2" onclick="valu('2')"/> </td> 
+                        <td><input type="button" value="3" onclick="valu('3')"/> </td> 
+                        <td><input type="button" value="/" onclick="valu('/')"/> </td> 
+                    </tr> 
+                    <tr> 
+                        <td><input type="button" value="4" onclick="valu('4')"/> </td> 
+                        <td><input type="button" value="5" onclick="valu('5')"/> </td> 
+                        <td><input type="button" value="6" onclick="valu('6')"/> </td> 
+                        <td><input type="button" value="-" onclick="valu('-')"/> </td> 
+                    </tr> 
+                    <tr> 
+                        <td><input type="button" value="7" onclick="valu('7')"/> </td> 
+                        <td><input type="button" value="8" onclick="valu('8')"/> </td> 
+                        <td><input type="button" value="9" onclick="valu('9')"/> </td> 
+                        <td><input type="button" value="+" onclick="valu('+')"/> </td> 
+                    </tr> 
+                    <tr> 
+                        <td><input type="button" value="." onclick="valu('.')"/> </td> 
+                        <td><input type="button" value="0" onclick="valu('0')"/> </td> 
+                        <td><input type="button" value="" onclick=""/> </td> 
+                        <td><input type="button" value="*" onclick="valu('*')"/> </td> 
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="C" onclick="clr()"/> </td> 
+                        <td><input type="button" value="x&#178" onclick="sqr()"/> </td> 
+                        <td><input type="button" value="&#8731" onclick="croot()"/> </td> 
+                        <td><input type="button" value="=" onclick="solve()"/> </td> 
+                    </tr> 
+                </table> 
+            </div>
+            <div class="result-container">
+                <table>
+                    <tr>
+                        <td><input type="text" id="result"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="history" id="hist">
+            </div>
+        </div>
+   </body> 
+</html>
