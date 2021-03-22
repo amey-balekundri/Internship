@@ -1,0 +1,29 @@
+.container-fluid {
+    padding: 30px;
+}
+
+.left-content {
+    width:30%;
+    float: left;
+    padding: 20px;
+}
+
+.right-content {
+    
+    width:70%;
+    float: left;
+}
+
+.card {
+    width: 300px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color:rgb(232, 240, 254);
+}
+
+#card-edit {
+    position:absolute;
+    right: 0;
+}
