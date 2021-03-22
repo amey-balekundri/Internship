@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+}
+
+.container_image {
+    width: 30%;
+    float: left;
+}
+
+.container_content {
+    width: 70%;
+    float: left;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    font-size: 40px;
+}
