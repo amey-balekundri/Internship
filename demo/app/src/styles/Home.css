@@ -1,0 +1,28 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.imgbg{
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;    
+    }
+.headline{
+    /* display: flex; */
+    /* height: 100vh; */
+    /* align-items: center; */
+    margin-top: 300px;
+    color: white;
+}
+
+.navbar{
+    background-color: rgba(0,0,0,.2) !important;
+}
+
+h1{
+    font-size: 60px;
+}
