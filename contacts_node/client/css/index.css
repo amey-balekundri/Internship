@@ -1,0 +1,50 @@
+.container-fluid {
+    padding: 30px;
+}
+
+.left-content {
+    width:30%;
+    float: left;
+    padding: 20px;
+}
+.right-content {
+    width:70%;
+    float: left;
+}
+
+.card {
+    width: 300px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#card-edit {
+    position:absolute;
+    right: 0;
+    padding: 10px;
+    /* color: blue; */
+}
+
+#card-delete {
+    position:absolute;
+    left: 0;
+    padding: 10px;
+    /* color:red; */
+}
+
+#delete-all{
+    width: 100%;
+}
+
+#save{
+    width:110px;
+}
+
+#contact-form{
+    background-color: lightsteelblue;
+    padding: 20px;
+}
+
+    
